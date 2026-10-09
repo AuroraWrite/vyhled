@@ -217,7 +217,15 @@ export default function Home() {
 
               <div className={styles.unreadList}>
                 {unreadNews.map((item) => (
-                  <article key={item.id} className={styles.unreadCard}>
+                  <a
+                    key={item.id}
+                    href="https://cryptosvet.cz"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handleCtaClick();
+                    }}
+                    className={styles.unreadCard}
+                  >
                     <div className={styles.unreadThumbWrap}>
                       <img
                         src={item.img}
@@ -228,7 +236,7 @@ export default function Home() {
                     <div className={styles.unreadInfo}>
                       <h3 className={styles.unreadHeadline}>{item.title}</h3>
                     </div>
-                  </article>
+                  </a>
                 ))}
               </div>
             </section>
@@ -261,6 +269,16 @@ export default function Home() {
           <p className={styles.copyrightText}>© 1997-2026 Výhled CZ</p>
         </div>
       </footer>
+
+      {/* 5. Full-Screen Loading Overlay */}
+      {isLoading && (
+        <div className={styles.loadingOverlay} aria-live="assertive">
+          <div className={styles.loadingBox}>
+            <div className={styles.globalSpinner}></div>
+            <span className={styles.loadingText}>Načítání...</span>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
