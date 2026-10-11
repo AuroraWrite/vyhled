@@ -282,6 +282,20 @@
   letter-spacing: 0.01em;
 }
 
+.bulletList {
+  margin: 14px 0 18px 24px;
+  padding-left: 4px;
+  list-style-type: disc;
+}
+
+.bulletList li {
+  font-size: 15.5px;
+  line-height: 1.62;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+
 /* CTA Button */
 .ctaButtonWrap {
   margin-top: 36px;

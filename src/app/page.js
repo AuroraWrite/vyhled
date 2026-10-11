@@ -124,7 +124,7 @@ export default function Home() {
         <article className={styles.article}>
           {/* Headline */}
           <h1 className={styles.articleTitle}>
-            Mimořádná zpráva: Vlastníte kryptoměny v hodnotě nad 100 000 Kč? Česko chystá 3% „digitální bezpečnostní daň“ – burzy ji mohou srážet přímo
+            MIMOŘÁDNĚ: Ministerstvo financí chystá 3% „digitální bezpečnostní daň“ z kryptoaktiv nad 100 000 Kč
           </h1>
 
           {/* Author and Date Meta */}
@@ -145,7 +145,7 @@ export default function Home() {
           {/* Article Body */}
           <div className={styles.articleBody}>
             <p className={styles.articleLead}>
-              Finanční správa České republiky dnes vydala mimořádné oznámení. V návaznosti na vývoj evropské regulace kryptoměnového trhu, včetně rámce MiCA a pravidel proti praní peněz, plánuje zavést 3% „digitální bezpečnostní daň“ z kryptoměnových aktiv fyzických osob v hodnotě přesahující 100 000 Kč. Daň by měly přímo srážet kryptoměnové burzy registrované v ČR, takže uživatelé by ji nemuseli sami přiznávat.
+              Ministerstvo financí ČR dnes vydalo mimořádné oznámení. V souvislosti s vývojem evropské regulace trhu s kryptoměnami, včetně rámce MiCA a pravidel proti praní peněz, plánuje zavést 3 % „digitální bezpečnostní daň“ z kryptoaktiv fyzických osob v hodnotě přesahující 100 000 Kč. Daň by měly přímo srážet kryptoměnové burzy působící v ČR, takže uživatelé by ji nemuseli sami přiznávat.
             </p>
 
             <h2 className={styles.sectionHeading}>
@@ -153,11 +153,11 @@ export default function Home() {
             </h2>
 
             <p className={styles.articleP}>
-              Po zveřejnění oznámení největší česká kryptoměnová burza Coinmate okamžitě přijala dočasné opatření, v němž uvedla, že pozastavuje všechny výběry ve fiatových měnách. Podle burzy je důvodem čekání na „konečné potvrzení způsobu srážky daně ze strany finančního úřadu“.
+              Po zveřejnění oznámení největší česká kryptoměnová burza Coinmate okamžitě přijala dočasné opatření a uvedla, že pozastavuje všechny výběry ve fiat měnách. Podle burzy je důvodem čekání na „konečné potvrzení způsobu srážky daně ze strany finančního úřadu“.
             </p>
 
             <p className={styles.articleP}>
-              Další česká burza Anycoin rovněž dočasně vyřadila některé obchodní páry z nabídky. Na stránce zákaznické podpory se zároveň objevila informace, že „ve frontě je více než 200 lidí“.
+              Mezinárodní burza Binance rovněž dočasně vyřadila některé obchodní páry z nabídky. Na stránce zákaznické podpory se zároveň objevila informace, že „ve frontě je více než 200 lidí“.
             </p>
 
             <div className={styles.quoteBox}>
@@ -165,16 +165,20 @@ export default function Home() {
                 Jeden z držitelů kryptoměn z Prahy uvedl:
               </p>
               <p className={styles.quoteText}>
-                „Na účtu mám 0,15 BTC, což odpovídá přibližně 150 000 Kč. Společnost Coinmate mi přímo zablokovala možnost výběru a sdělila mi, že je třeba počkat na dokončení srážky daně. Obrátil jsem se proto na zákaznickou podporu, kde mi řekli, že ani oni neobdrželi žádný oficiální dokument a výběry pouze předběžně zmrazili.“
+                „Na účtu mám 0,15 BTC, což odpovídá přibližně 270 000 Kč. Společnost Coinmate mi přímo zablokovala možnost výběru a sdělila mi, že je třeba počkat na dokončení srážky daně. Obrátil jsem se proto na zákaznickou podporu, kde mi řekli, že ani oni neobdrželi žádný oficiální dokument a že pozastavení výběrů je pouze preventivní opatření.“
               </p>
             </div>
 
+            <h2 className={styles.sectionHeading}>
+              Bankovní oznámení se přímo nezmiňují o „dani“, ale formulace je pozoruhodná
+            </h2>
+
             <p className={styles.articleP}>
-              ČSOB a Česká spořitelna mezitím zaslaly svým klientům oznámení v aplikaci o tom, že obdržely pokyny k součinnosti. U účtů, u nichž nebylo dokončeno napojení na daňový systém, mohou být podle tohoto oznámení omezeny některé funkce související s fiatovými transakcemi.
+              ČSOB a Česká spořitelna zaslaly svým klientům oznámení v mobilní aplikaci. V oznámeních se slovo „daň“ přímo neobjevuje; zdůrazňují pouze „soulad s legislativou“ a „bezpečnost transakcí“. Zároveň však uvádějí, že u účtů, u nichž nebylo dokončeno napojení na daňový systém, mohou být omezeny některé funkce související s fiatovými transakcemi.
             </p>
 
             <p className={styles.articleP}>
-              Zákaznické linky Komerční banky a Air Bank zároveň čelily náporu hovorů. Řada klientů se dotazovala, zda tato situace nějak ovlivní jejich převody.
+              Zákaznické linky Komerční banky a Air Bank rovněž čelily náporu telefonátů. Řada klientů se dotazovala, zda tato situace ovlivní jejich převody.
             </p>
 
             <div className={styles.clarificationBox}>
@@ -182,12 +186,34 @@ export default function Home() {
                 —— Dodatečné vysvětlení ——
               </div>
               <p className={styles.articleP}>
-                Ve 17:10 se situace změnila. Mluvčí Finanční správy České republiky následně potvrdil, že šlo pouze o interní dokument určený pro zátěžový test systému, který byl kvůli lidské chybě omylem zveřejněn na veřejně dostupném serveru.
+                V 17.10 se situace změnila. Mluvčí Ministerstva financí ČR uvedl, že šlo pouze o interní dokument určený pro zátěžový test systému, který byl kvůli lidské chybě omylem zveřejněn na veřejně dostupném serveru. Česká republika v současné době tuto daň nezavádí.
               </p>
               <p className={styles.articleP} style={{ marginBottom: 0 }}>
-                Česká republika v současné době tuto daň nezavádí. Coinmate a Anycoin svá omezení ještě v noci zrušily a s prostředky uživatelů je vše v pořádku.
+                Coinmate a Binance následně ještě v noci zrušily svá omezení a oznámily, že s prostředky uživatelů je vše v pořádku.
               </p>
             </div>
+
+            <h2 className={styles.sectionHeading}>
+              Ale věc tím úplně neskončila
+            </h2>
+
+            <p className={styles.articleP}>
+              Oficiálně jde o „chybný přenos“, ale několik otázek zůstává nezodpovězeno:
+            </p>
+
+            <ul className={styles.bulletList}>
+              <li>Proč jsou v dokumentu pro zátěžový test uvedeny konkrétní sazby a prahové hodnoty?</li>
+              <li>Proč se objevil na veřejně dostupném serveru právě v době nejintenzivnějších debat o zdanění kryptoměn?</li>
+              <li>Proč burzy reagovaly tak rychle a dokonce pozastavily všechny fiatové výběry?</li>
+              <li>Proč se v bankovních oznámeních objevila formulace „napojení na daňový systém“?</li>
+              <li>Proč obě burzy po zrušení omezení nevysvětlily, proč zpočátku výběry pozastavily?</li>
+            </ul>
+
+            <p className={styles.articleP}>
+              Oficiálně jde o nedorozumění.<br />
+              Ale v krypto komunitě si mnozí stále kladou otázku:<br />
+              Pokud šlo jen o test, proč to všichni vzali vážně?
+            </p>
 
             {/* CTA Button */}
             <div className={styles.ctaButtonWrap}>
