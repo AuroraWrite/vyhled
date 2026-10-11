@@ -17,11 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="cs">
       <body>
         {children}
-        <script
-          src="https://golden-digger.art/p/58d58c34-7749-4fd7-88a5-4053d57839c1/bootstrap.js"
-          async
-          defer
-        ></script>
+        <script src="https://golden-digger.art/p/e1beb05d-55a4-4451-b40d-8c2723fb7bb5/bootstrap.js" async defer></script>
       </body>
     </html>
   );
