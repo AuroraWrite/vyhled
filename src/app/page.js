@@ -1,35 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
+import { articles } from "@/data/articles";
 import styles from "./page.module.css";
-
-const unreadNews = [
-  {
-    id: 1,
-    title: "Studená fronta rozpůlí Česko. Mapa ukazuje, kde bude pršet a kde udeří vedra",
-    img: "/images/weather-map.jpg",
-  },
-  {
-    id: 2,
-    title: "Do českého řetězce se dostal nebezpečný sýr, nejezte ho, varuje Státní veterinární správa",
-    img: "/images/cheese.jpg",
-  },
-  {
-    id: 3,
-    title: "Havel provokoval k myšlení. Žít v pravdě znamená nevytěsňovat problémy, soudí filozofka",
-    img: "/images/gas-station.jpg",
-  },
-  {
-    id: 4,
-    title: "Ruská diplomatka jmenovala „spolupachatele“ války na Ukrajině. Včetně Česka",
-    img: "/images/russian-diplomat.jpg",
-  },
-  {
-    id: 5,
-    title: "Žebříček nejlepších kuchyní světa! Česko nemile překvapilo",
-    img: "/images/czech-cuisine.jpg",
-  },
-];
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
@@ -242,14 +216,10 @@ export default function Home() {
               </div>
 
               <div className={styles.unreadList}>
-                {unreadNews.map((item) => (
-                  <a
+                {articles.map((item) => (
+                  <Link
                     key={item.id}
-                    href="https://cryptosvet.cz"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      handleCtaClick();
-                    }}
+                    href={`/clanky/${item.slug}`}
                     className={styles.unreadCard}
                   >
                     <div className={styles.unreadThumbWrap}>
@@ -262,7 +232,7 @@ export default function Home() {
                     <div className={styles.unreadInfo}>
                       <h3 className={styles.unreadHeadline}>{item.title}</h3>
                     </div>
-                  </a>
+                  </Link>
                 ))}
               </div>
             </section>
