@@ -178,6 +178,29 @@
   object-fit: cover;
 }
 
+/* Article Body */
+.articleBody {
+  margin: 22px 0 28px 0;
+  width: 100%;
+}
+
+.articleLead {
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+}
+
+.articleP {
+  font-size: 15.5px;
+  line-height: 1.68;
+  font-weight: 400;
+  color: #334155;
+  margin-bottom: 16px;
+}
+
 /* CTA Button */
 .ctaButtonWrap {
   margin-top: 24px;

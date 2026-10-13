@@ -139,6 +139,16 @@ export default async function ArticlePage({ params }) {
             />
           </div>
 
+          {/* Article Body */}
+          <div className={styles.articleBody}>
+            {article.lead && (
+              <p className={styles.articleLead}>{article.lead}</p>
+            )}
+            {article.paragraphs?.map((p, idx) => (
+              <p key={idx} className={styles.articleP}>{p}</p>
+            ))}
+          </div>
+
           {/* CTA Button */}
           <CtaButton />
         </article>
