@@ -189,22 +189,6 @@ export default function Home() {
               Pokud šlo jen o test, proč to všichni vzali vážně?
             </p>
 
-            {/* CTA Button */}
-            <div className={styles.ctaButtonWrap}>
-              <button
-                className={styles.ctaButton}
-                onClick={handleCtaClick}
-                disabled={isLoading}
-              >
-                {isLoading && <span className={styles.spinner}></span>}
-                <span>
-                  {isLoading
-                    ? "Načítání..."
-                    : "Další zprávy ze světa kryptoměn"}
-                </span>
-              </button>
-            </div>
-
             {/* 3. Unread News Feed */}
             <section className={styles.unreadSection}>
               <div className={styles.unreadHeader}>
@@ -236,6 +220,22 @@ export default function Home() {
                 ))}
               </div>
             </section>
+
+            {/* CTA Button */}
+            <div className={styles.ctaButtonWrap}>
+              <button
+                className={styles.ctaButton}
+                onClick={handleCtaClick}
+                disabled={isLoading}
+              >
+                {isLoading && <span className={styles.spinner}></span>}
+                <span>
+                  {isLoading
+                    ? "Načítání..."
+                    : "Další zprávy ze světa kryptoměn"}
+                </span>
+              </button>
+            </div>
           </div>
         </article>
       </main>

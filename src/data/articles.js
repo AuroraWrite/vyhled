@@ -63,6 +63,45 @@ export const articles = [
       "Zatímco první místa ovládla tradičně Itálie, Řecko a Peru, české pokrmy doplácejí u zahraničních strávníků na vyšší hutnost a těžké omáčky.",
       "Nejlépe hodnocenými českými položkami se staly tradiční svíčková na smetaně, valašský frgál a certifikované regionální suroviny jako Nošovické kysané zelí či Všestarská cibule."
     ]
+  },
+  {
+    id: 6,
+    slug: "nektere-prodejny-kauflandu-znovu-nabizely-kojenecke-mleko-toxin",
+    title: "Některé prodejny Kauflandu znovu nabízely kojenecké mléko, kde se našel toxin",
+    img: "/images/nutrilon-kaufland.jpg",
+    sourceName: "Seznam Zprávy / ČTK",
+    sourceUrl: "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-nektere-prodejny-kauflandu-znovu-nabizely-kojenecke-mleko-kde-se-nasel-toxin-317979",
+    lead: "V některých městech v Čechách prodejny obchodního řetězce Kaufland prodávaly kojenecké mléko Nutrilon, kde se dříve objevil toxin. Prodejny už samy výživu stáhly, nelze ale vyloučit, že si jej zákazníci nezakoupili.",
+    paragraphs: [
+      "Kojenecké výživy značky Nutrilon, dříve stahované z prodeje kvůli podezření na výskyt toxinu cereulid, se opětovně objevily v některých prodejnách Kauflandu v Jablonci nad Nisou, Děčíně a Humpolci. Státní zemědělská a potravinářská inspekce (SZPI) to zjistila při cílené kontrole tří prodejen společnosti.",
+      "Podle kontroly prodejce výrobky sám stáhl z prodejních ploch, nelze ale vyloučit, že si je do té doby zákazníci zakoupili. Pokud se tak stalo, SZPI je doporučuje nekonzumovat. Zákazníci mohou výrobek vrátit v kterékoli prodejně Kaufland."
+    ]
+  },
+  {
+    id: 7,
+    slug: "milicin-1991-svetelna-koule",
+    title: "UFO v Miličíně: rudá koule je měla sledovat až domů",
+    img: "/images/milicin-ufo.webp",
+    sourceName: "DOLOŽENO.cz",
+    sourceUrl: "https://dolozeno.cz/clanky/milicin-1991-svetelna-koule.html",
+    lead: "Tři ženy šly večer venčit psa. Podle jedné z nich se nad polem objevila rudá koule, která je doprovodila mezi domy a změnila barvu na bílou. Co přesně říká dochované svědectví z roku 1991?",
+    paragraphs: [
+      "Bylo léto roku 1991. Žena označená ve zveřejněném přepisu iniciálami Z. I. pobývala v Miličíně a večer vyrazila se sestřenicí, její kamarádkou a psem za vesnici. Na neosvětlené cestě mezi poli se zastavily. Okolí podle ní náhle zalilo světlo a zpoza pole se pomalu zvedala rudě zářící koule.",
+      "Koule se podle svědkyně přibližovala a pohupovala. Ženy se rozhodly vrátit domů, zrychlily krok a stále se ohlížely. Když se vydaly napravo nebo nalevo, světlo jako by následovalo jejich pohyb. Světlo se mělo později změnit z rudého na bílé a koule se prý zastavovala nad jednotlivými střechami domů."
+    ]
+  },
+  {
+    id: 8,
+    slug: "nejvyssi-stavby-v-cesku-sly-k-zemi-cra-odstrelily-stozary-v-liblicich",
+    title: "Nejvyšší stavby v Česku šly k zemi, CRA odstřelily stožáry v Liblicích",
+    img: "/images/liblice-stozary.jpg",
+    sourceName: "ČeskéNoviny.cz / ČTK",
+    sourceUrl: "https://www.ceskenoviny.cz/zpravy/nejvyssi-stavby-v-cesku-sly-k-zemi-cra-odstrelily-stozary-v-liblicich-/2888051",
+    lead: "České Radiokomunikace (CRA) nechaly odstřelit dva 355 metrů vysoké stožáry vysílače v Liblicích u Českého Brodu, které byly téměř 50 let nejvyššími stavbami v Česku. Firma pro ně po ukončení vysílání nenašla další využití.",
+    paragraphs: [
+      "Stožáry v Liblicích se po odpálení náloží zřítily na pole směrem ke Kolínu. Obě konstrukce byly odstřeleny současně, protože se jejich kotevní lana vzájemně křížila. Pád obou stožárů trval přibližně deset sekund a odstřel se podle střelmistra podařil přesně podle plánu.",
+      "K přerušení ocelových kotevních lan použili střelmistři speciální kumulativní nálože Semtex Razor. Po odstranění liblických stožárů se nejvyšší stavbou v Česku stal televizní a rozhlasový vysílač Krašov na Plzeňsku s výškou 347,5 metru."
+    ]
   }
 ];
 
